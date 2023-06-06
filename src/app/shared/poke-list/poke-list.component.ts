@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ColdObservable } from 'rxjs/internal/testing/ColdObservable';
 import { PokeApiService } from 'src/app/service/poke-api.service';
 
 @Component({
@@ -11,6 +10,7 @@ export class PokeListComponent {
 
   public getAllPokemons: any;
   private setAllPokemons: any;
+  public apiError: boolean= false;
 
 
   constructor (
@@ -22,6 +22,9 @@ export class PokeListComponent {
       res => {
         this.setAllPokemons = res.results;
         this.getAllPokemons = this.setAllPokemons;
+      },
+      error=> {
+        this.apiError=true;
       }
     );
   }

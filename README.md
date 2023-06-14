@@ -57,6 +57,6 @@ Para o desenvolvimento do projeto foram usadas as seguintes tecnologias:
 
 ## Layout
 
-![screenshot](/images/waiter.gif)
+![screenshot](/images/gifPkedex.gif)
 
 

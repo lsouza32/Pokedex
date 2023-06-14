@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a><img src="images/WaiterApp.png" alt="WaiterApp"></a>
+  <a><img src="images/0.png" alt="Pokedex"></a>
   <br>
   Pokedex
   <br>
